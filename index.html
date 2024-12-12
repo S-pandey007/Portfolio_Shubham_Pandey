@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/mediaqueris.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shubham Pandey</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Technical Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shubham Pandey</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Technical Experience</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <!-- update profile photo -->
+            <!-- <img src="./assets/profile-pic.png" alt="Shubham Pandey profile Picture"/> -->
+            <!-- <img id="profile_img" src="./assets/my pic/IMG-20241211-WA0003.jpg" alt="Shubham Pandey profile Picture"/>     -->
+            <img id="profile_img" src="./assets/my pic/Untitled design.png" alt="Shubham Pandey profile Picture"/>    
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Shubham Pandey</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <!-- Update Resume file Path -->
+                <button class="btn btn-color-2" onclick="window.open('./assets/ShubhamPandeyResume (1).pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <!-- linkedin link update  -->
+                <img src="./assets/linkedin.png" alt="My Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shubham-pandey-969a241ba/'"/>
+                <img src="./assets/github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/S-pandey007'"/>
+                <img src="./assets/youtube.png" alt="My GitHub profile" class="icon" onclick="location.href='https://youtube.com/@avenirskill?si=3wa8DE5uFj6j1eQT'"/>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arror icon" class="icon arrow" onclick="location.href='./#about'"/>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More </p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <!-- <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic"/> -->
+                <img src="./assets/53919.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experince icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>Fresher<br/>React-native Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>BCA : Bachelor of Computer Applications<br/>MCA : Master of Computer Applications</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        My name is <b>Shubham Pandey</b>, and I am currently pursuing a <b>Master of Computer Applications (MCA)</b> from Sinhgad Institute of Management and Computer Application, Pune. I hold a <b>Bachelor’s degree in Computer Applications (BCA)</b> from Pt. Ravishankar Shukla University. </p>
+                        
+                       <br><p> I reside in <b>Pune, Maharashtra</b>, and have a strong passion for <b>mobile app development</b>, particularly using <b>React Native</b>. My technical skills include <b>JavaScript, React Native, Node.js, HTML, CSS</b>, and <b>API integration</b>, with proficiency in tools like <b>Android Studio</b> and <b>Visual Studio</b>. </p> 
+                        
+                       <br><p> In my free time, I enjoy <b>playing cricket</b> and <b>exploring new technologies</b> to stay updated with the latest trends in the tech world. My <b>future goal</b> is to become a skilled <b>React Native developer</b>, contributing innovative solutions to impactful projects while continuously enhancing my knowledge and expertise.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arror icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Skill</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>HTML</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>CSS</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Javascript</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>React-native</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>API</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Java</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Node.js</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>C++</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <!-- <img src="./assets/checkmark.png" alt="skills" class="icon"/> -->
+                            <div >
+                                <!-- <h1>Node.js</h1> -->
+                                <!-- <p>Basic</p> -->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Tools & Technologys</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Android Studio</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Visual Studio</h1>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>GitHub</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>Firebase Database</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>MongoDB</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="skills" class="icon"/>
+                            <div >
+                                <h1>MySQL Database</h1>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <img src="./assets/arrow.png" alt="arror icon" 
+         class="icon arrow" 
+         onclick="location.href='./#projects'"/>
+    </section>
+    
+    <section id="projects">
+        <p class="section_text_p1">Browse My Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+            <!-- project 1 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/travel_AI.webp" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">AI Travel Itinerary Generator</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/React-Native-TravelAI'">GitHub</button>
+                </div>
+            </div>
+            <!-- project 2 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/banking.jpeg" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Banking System console-based application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/Banking-System-in-C-.git'">GitHub</button>
+                </div>
+            </div>
+
+            <!-- project 3 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/library_management.webp" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title"> Library Book Management System </h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/library-management-system-in-c-.git'">GitHub</button>
+                </div>
+            </div>
+        </div>
+            <div class="about-container">
+            <!-- project 1 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/recipe.webp" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Recipe Search Application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/Food-recipe-api.git'">GitHub</button>
+                </div>
+            </div>
+            <!-- project 2 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/weatherApp.webp" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title">Weather App</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/weatherApp.git'">GitHub</button>
+                </div>
+            </div>
+
+            <!-- project 3 -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project_img/to-do-list.webp" alt="project 1" class="project-img"/>
+                </div>
+                <h2 class="experience-sub-title project-title"> web-based To-Do List application</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/S-pandey007/To-do-list.git'">GitHub</button>
+                </div>
+            </div>
+        </div>
+        </div> 
+        <img src="./assets/arrow.png" alt="arror icon" 
+         class="icon arrow" 
+         onclick="location.href='./#education'"/>
+    </section>
+
+    <section id="education">
+        <p class="section_text_p1">My Educational Journey</p>
+        <h1 class="title">Education</h1>
+        <div class="education-container">
+           <!-- Academic Qualifications -->
+           <div class="education-item">
+              <h3>MCA - Master of Computer Applications</h3>
+              <p>SIMCA, Pune, India</p>
+              <p>August 2023 - May 2025</p>
+              <p>CGPA: 7.7/10</p>
+           </div>
+
+           <div class="education-item">
+              <h3>BCA - Bachelor of Computer Applications</h3>
+              <p>RITEE, Raipuer, Chhattisgarh</p>
+              <p>August 2019 - May 2022</p>
+              <p>Percentage : 82%</p>
+           </div>
+         
+           <!-- Extracurricular Activities -->
+           <div class="education-item">
+              <h3>Sinhgad TechDrill Student Coordinator</h3>
+              <p>Coordinated workshops and technical events for MCA students at SIMCA.</p>
+              <p>Year: 2022-2023</p>
+           </div>
+     
+           <!-- Skills Gained -->
+           <div class="education-item">
+              <h3>Skills Acquired</h3>
+              <ul>
+                 <li>Programming: Java, Python, JavaScript</li>
+                 <li>Frameworks: React, React Native, Node.js</li>
+                 <li>Soft Skills: Leadership, Communication, Problem Solving</li>
+              </ul>
+           </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arror icon" 
+         class="icon arrow" 
+         onclick="location.href='./#contact'"/>
+     </section>
+     
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon"/>
+                <p><a href="mailto:shubhampandey8663@gmail.com">shubhampandey8663@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkdin icon" class="icon contact-icon"/>
+                <p><a href="mailto:shubhampandey8663@gmail.com">LinkedIn</a></p>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <nav>
+            <!-- <div class="logo">Shubham Pandey</div> -->
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Technical Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Shubham Pandey. All Right Reserved.</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
